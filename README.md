@@ -1,17 +1,7 @@
-# color_to_BW
-This code can convert one or multiple color images into black and white images (24bit to 8bit). 
+# Photo-Processor
 
+Image converter that processes colour images and turns them black and white (24bit to 8bit).
 
-Prerequisites :
-    1. Download the .py file and place it in a separate folder.
-    2. In that folder create 2 more folders: "samples" and "converted".
-    3. Keep multiple color photos in "samples" which you want to convert.
-    4. Install "pillow" (PIL) and "tqdm" if not installed already [install using pip or download manually].
+Download the .py file and place it inside a folder. Inside the same folder, create a folder "samples" for sample images and "converted" for B/W images. Populate "samples" with images that need converting. Install the PIL (pillow) and tqdm libraries, either manually or by using pip.
 
-
-When all these conditions are satisfied, open an IDE and run the python file.
-It will first take some time to count the file number in the "samples" directory.
-Then will as you for a starting and ending index (range).
-Finally it will start converting those selected files and show you a progress bar.
-When all the files will get converted successfully, it will show a confirmation message.
-Atlast by hitting "ENTER" you can terminate the program.
+Run the downloaded .py file in an IDE of your choice. The code will ask for a starting and ending index correlating to the number of photos that have to be converted. Once the task is finished, a completion message will be shown. Hit ENTER to terminate the program.
